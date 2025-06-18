@@ -1,0 +1,44 @@
+header, .contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: gray;
+  height: 100vh;
+  color: rgb(0, 0, 0);
+}
+header button, .contact button {
+  background: red;
+}
+header button:hover, .contact button:hover {
+  background-color: blue;
+}
+header button::after, .contact button::after {
+  content: " Hello!";
+}
+header p, .contact p {
+  color: rgb(0, 0, 0);
+}
+header .mainText, .contact .mainText {
+  color: rgb(0, 0, 0);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: lightblue;
+  width: 80%;
+}
+
+.contact button {
+  background: red;
+}/*# sourceMappingURL=style.css.map */
